@@ -1,7 +1,7 @@
 /*Fonts*/
 @font-face {
-  font-family: "Platform-Regular-Web";
-  src: url({{ [Platform-Regular-Web.woff] | asset_url }}) format("[woff]");
+  font-family: "Platform-Regular";
+  src: url({{ 'Platform-Regular-Web.woff' | asset_url }}) format("woff");
 }
 
 html {
